@@ -1,0 +1,49 @@
+{
+  "project": {
+    "pz": {
+      "sig": {
+        "campaignUrl": {
+          "str": 1,
+          "cap": 1,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "blue"
+                },
+                "queryName": "campaign"
+              }
+            ]
+          }
+        },
+        "greenPreference": {
+          "str": 1,
+          "cap": 1,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "preference",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "green"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "test": {}
+  }
+}
