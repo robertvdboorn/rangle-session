@@ -45,21 +45,21 @@ export default function Home({ data }: { data: RootComponentInstance }) {
           <p className="text-gray-600 mb-4">Personalization Demo</p>
           <div className="space-x-4">
             <Button onClick={() => setPreference("red")} variant="destructive">
-              Set Preference to Red
+              Set Preference Quirk to Red
             </Button>
             <Button
               onClick={() => setPreference("green")}
               variant="default"
               className="bg-green-500 hover:bg-green-600"
             >
-              Set Preference to Green
+              Set Preference Quirk to Green
             </Button>
             <Button
               onClick={() => setPreference("blue")}
               variant="default"
               className="bg-blue-500 hover:bg-blue-600"
             >
-              Set Preference to Blue
+              Set Preference Quirk to Blue
             </Button>
           </div>
         </div>
