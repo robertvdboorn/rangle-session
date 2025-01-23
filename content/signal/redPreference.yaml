@@ -1,0 +1,16 @@
+id: redPreference
+name: Red Preference
+cap: 100
+crit:
+  op: '&'
+  type: G
+  clauses:
+    - key: preference
+      type: QK
+      match:
+        cs: false
+        op: '='
+        rhs: red
+dur: t
+description: ''
+str: 50

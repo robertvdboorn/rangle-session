@@ -1,0 +1,143 @@
+composition:
+  _name: Home
+  _id: 2dcf25ac-faa3-4cda-9f89-e4eef10351d0
+  _slug: /
+  type: page
+  slots:
+    content:
+      - _id: 60daf00b-fb1d-44fe-81f3-e816c6692eee
+        type: $personalization
+        slots:
+          pz:
+            - _id: ad0a69bc-82f8-4591-a356-fe86c0886460
+              type: component
+              parameters:
+                title:
+                  type: text
+                  value: Blue Preference Quirk Signal
+                colour:
+                  type: select
+                  value: bg-blue-500
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: bluePreference
+                        r: 0
+                        op: '>'
+                    name: ''
+            - _id: 01195e67-4c74-4f16-87b6-996b87f9cb3c
+              type: component
+              parameters:
+                title:
+                  type: text
+                  value: Red Preference Quirk Signal
+                colour:
+                  type: select
+                  value: bg-red-500
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: redPreference
+                        r: 0
+                        op: '>'
+                    name: ''
+            - _id: 8bc4960f-96c5-4dbb-93ba-9ad8056dc3c8
+              type: component
+              parameters:
+                title:
+                  type: text
+                  value: Green Preference Quirk Signal
+                colour:
+                  type: select
+                  value: bg-green-500
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: greenPreference
+                        r: 0
+                        op: '>'
+                    name: ''
+            - _id: 48fa1a19-f49a-424d-b630-6274cec688ce
+              type: component
+              parameters:
+                title:
+                  type: text
+                  value: Campaign Signal
+                colour:
+                  type: select
+                  value: bg-blue-500
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: campaignUrl
+                        r: 0
+                        op: '>'
+                    name: ''
+            - _id: d0245c0d-7cc1-42ab-b0ac-82c0f220c038
+              type: component
+              parameters:
+                title:
+                  type: text
+                  value: Red Preference Enrichment
+                colour:
+                  type: select
+                  value: bg-red-500
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: '1_2'
+                        op: +
+                    name: 'Component: Orange Preference Enrichment'
+            - _id: 0e32b630-e932-432f-b69c-01ea310561e7
+              type: component
+              parameters:
+                title:
+                  type: text
+                  value: Purple Preference Enrichment
+                colour:
+                  type: select
+                  value: bg-purple-500
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: '1_3'
+                        op: +
+                    name: 'Component: Orange Preference Enrichment'
+            - _id: e10a4c47-04c5-4f84-bacc-300faf96f81f
+              type: component
+              parameters:
+                title:
+                  type: text
+                  value: Orange Preference Enrichment
+                colour:
+                  type: select
+                  value: bg-orange-500
+                $pzCrit:
+                  type: $pzCrit
+                  value:
+                    crit:
+                      - l: '1_1'
+                        op: +
+                    name: 'Component: Orange Preference Enrichment'
+            - _id: c814ad6b-94a9-4179-b5fb-d462713f01a6
+              type: component
+              parameters:
+                title:
+                  type: text
+                  value: This is the default component
+        parameters:
+          count:
+            type: number
+            value: 1
+          trackingEventName:
+            type: text
+            value: Home-Component
+created: '2025-01-06T23:53:02.958401+00:00'
+modified: '2025-01-07T11:21:27.178056+00:00'
+pattern: false

@@ -1,6 +1,11 @@
 {
   "project": {
     "pz": {
+      "enr": {
+        "1": {
+          "cap": 100
+        }
+      },
       "sig": {
         "campaignUrl": {
           "str": 1,
@@ -37,6 +42,46 @@
                   "cs": false,
                   "op": "=",
                   "rhs": "green"
+                }
+              }
+            ]
+          }
+        },
+        "redPreference": {
+          "str": 50,
+          "cap": 100,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "preference",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "red"
+                }
+              }
+            ]
+          }
+        },
+        "bluePreference": {
+          "str": 1,
+          "cap": 1,
+          "dur": "t",
+          "crit": {
+            "op": "&",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "preference",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "blue"
                 }
               }
             ]

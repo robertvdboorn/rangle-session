@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=<https://uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: component
+name: Component
+icon: rectangle-rounded
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: colour
+    name: Colour
+    type: select
+    typeConfig:
+      options:
+        - text: Blue
+          value: bg-blue-500
+        - text: Green
+          value: bg-green-500
+        - text: Orange
+          value: bg-orange-500
+        - text: Red
+          value: bg-red-500
+        - text: Purple
+          value: bg-purple-500
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-01-06T23:55:28.304157+00:00'
+updated: '2025-01-07T11:13:19.417315+00:00'

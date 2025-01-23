@@ -1,0 +1,25 @@
+composition:
+  _name: Red
+  _id: 54ea066a-52ef-4eeb-9710-b20220c5425a
+  _slug: red
+  type: page
+  slots:
+    content:
+      - _id: 15243774-7b65-4308-99ca-085fe63a5451
+        type: component
+        parameters:
+          $enr:
+            type: $enr
+            value:
+              - cat: '1'
+                key: '2'
+                str: 1
+          title:
+            type: text
+            value: +1 in Red Preference Enrichment
+          colour:
+            type: select
+            value: bg-red-500
+created: '2025-01-07T11:13:27.880261+00:00'
+modified: '2025-01-07T11:18:26.494971+00:00'
+pattern: false

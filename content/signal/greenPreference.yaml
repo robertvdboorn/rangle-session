@@ -1,0 +1,16 @@
+id: greenPreference
+name: Green Preference
+cap: 1
+crit:
+  op: '&'
+  type: G
+  clauses:
+    - key: preference
+      type: QK
+      match:
+        cs: false
+        op: '='
+        rhs: green
+dur: t
+description: ''
+str: 1

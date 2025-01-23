@@ -1,0 +1,16 @@
+id: campaignUrl
+name: Campaign URL
+cap: 1
+crit:
+  op: '&'
+  type: G
+  clauses:
+    - type: QS
+      match:
+        cs: false
+        op: '='
+        rhs: blue
+      queryName: campaign
+dur: t
+description: ''
+str: 1

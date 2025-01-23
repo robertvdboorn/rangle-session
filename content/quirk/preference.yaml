@@ -1,0 +1,10 @@
+id: preference
+name: Preference
+description: ''
+options:
+  - name: Green
+    value: green
+  - name: Red
+    value: red
+  - name: Blue
+    value: blue

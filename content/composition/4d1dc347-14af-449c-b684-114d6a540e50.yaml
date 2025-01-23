@@ -1,0 +1,25 @@
+composition:
+  _name: Orange
+  _id: 4d1dc347-14af-449c-b684-114d6a540e50
+  _slug: orange
+  type: page
+  slots:
+    content:
+      - _id: 997a3b18-c593-4baf-8b80-c11df28dbeca
+        type: component
+        parameters:
+          $enr:
+            type: $enr
+            value:
+              - cat: '1'
+                key: '1'
+                str: 1
+          title:
+            type: text
+            value: +1 in Orage Preference Enrichment
+          colour:
+            type: select
+            value: bg-orange-500
+created: '2025-01-07T11:15:21.413077+00:00'
+modified: '2025-01-07T11:18:36.199541+00:00'
+pattern: false

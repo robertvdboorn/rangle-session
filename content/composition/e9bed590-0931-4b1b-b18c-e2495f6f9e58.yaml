@@ -1,0 +1,25 @@
+composition:
+  _name: Purple
+  _id: e9bed590-0931-4b1b-b18c-e2495f6f9e58
+  _slug: purple
+  type: page
+  slots:
+    content:
+      - _id: bd561e8b-a447-4fae-a6ec-a8faa9413ac1
+        type: component
+        parameters:
+          $enr:
+            type: $enr
+            value:
+              - cat: '1'
+                key: '3'
+                str: 1
+          title:
+            type: text
+            value: +1 in Purple Preference Enrichment
+          colour:
+            type: select
+            value: bg-purple-500
+created: '2025-01-07T11:15:47.008753+00:00'
+modified: '2025-01-07T11:18:50.229386+00:00'
+pattern: false
